@@ -28,6 +28,7 @@
     width: 130vh;
      background: rgb(230, 226, 226);
      border-radius: 30px;
+     position: relative;
 
 }
 .bg-pattern {
@@ -35,5 +36,22 @@
     width: 90vh;
     padding-bottom: 40vh;
     padding-right: 40vh;
+
+}
+
+.img-section {
+    position: relative;
+  
+    
+}
+.img-girl {
+    position: absolute;
+    left: -60px;
+    top: 80px;
+}
+.img-box {
+    position: absolute;
+    left: -100px;
+    top: 200px;
 
 }
