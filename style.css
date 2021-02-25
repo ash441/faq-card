@@ -4,31 +4,36 @@
     box-sizing: border-box;
 }
 
-body {
 
+
+.container {
     background-image: linear-gradient(to top,hsl(240, 73%, 65%),hsl(273, 75%, 66%)
     );
-  background-repeat: no-repeat;
-
+    background-repeat: no-repeat;
+    
     height: 720px;
-    width: auto;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  
 }
 
 
-
-
 .card {
-    height: 60vh;
-    width: 100vh;
-     background: white;
+    height: 80vh;
+    width: 130vh;
+     background: rgb(230, 226, 226);
      border-radius: 30px;
 
 }
 .bg-pattern {
-    height: 100px;
-    width: 90px;
+    height: 100vh;
+    width: 90vh;
+    padding-bottom: 40vh;
+    padding-right: 40vh;
 
 }
