@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'kubh sans',sans-serif;
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: lighter;
+
 }
 
 
@@ -31,10 +33,16 @@
 .card {
     height: 80vh;
     width: 130vh;
-     background: rgb(230, 226, 226);
+     background: white;
+     background-image: url(./images/bg-pattern-desktop.svg);
      border-radius: 30px;
      position: relative;
      z-index: 1;
+     background-position:-180px -60px ;
+     background-size: 67%;
+     background-repeat: no-repeat;
+     
+ 
 display: grid;
 grid-template-columns: 1fr 1fr;
 }
@@ -63,13 +71,138 @@ grid-template-columns: 1fr 1fr;
 
 }
 
-.bg-pattern {
-   
-    
-   position: absolute;
-   top: -240px;
-   left: -600px;
-   
+ /* faq styling */
+ .heading {
   
+     
+     color: red;
+ }
+
+.faq {
+    margin-top: 99px;
+    
+}
+
+.q1 {
+   
+position: relative;
+padding-bottom: 20px;
+margin-top: 20px;
+display: flex;
+color: hsl(238, 29%, 16%);
+
 
 }
+.q1::after {
+   
+        display: block;
+          content: '';
+         width: 80%;
+         height: 1px;
+         background: hsl(240, 5%, 91%);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+        
+       }
+
+
+.ans1 {
+    margin-top: 10px;
+    color: hsl(238, 29%, 16%);
+}
+.q2 {
+    position: relative;
+padding-bottom: 20px;
+margin-top: 20px;
+color: hsl(238, 29%, 16%);
+/* display: flex; */
+}
+.q2::after {
+
+    display: block;
+          content: '';
+         width: 80%;
+         height: 1px;
+         background: hsl(240, 5%, 91%);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+
+}
+.q3 {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    color: hsl(238, 29%, 16%);
+   
+}
+.q3::after {
+
+    display: block;
+          content: '';
+         width: 80%;
+         height: 1px;
+         background: hsl(240, 5%, 91%);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+
+}
+.q4 {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    color: hsl(238, 29%, 16%);
+}
+.q4::after {
+
+    display: block;
+          content: '';
+         width: 80%;
+         height: 1px;
+        
+         background: hsl(240, 5%, 91%);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+
+}
+.q5 {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    color: hsl(238, 29%, 16%);
+}
+.q5::after {
+
+    display: block;
+          content: '';
+         width: 80%;
+         height: 1px;
+         background: hsl(240, 5%, 91%);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+
+}
+
+/* arrow  */
+.arrow {
+    border: solid hsl(14, 88%, 65%);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arr-key {
+      margin-left: 20px;
+  }
