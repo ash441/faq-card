@@ -41,10 +41,8 @@
      background-position:-180px -60px ;
      background-size: 67%;
      background-repeat: no-repeat;
-     
- 
-display: grid;
-grid-template-columns: 1fr 1fr;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .card::after {
 
@@ -65,11 +63,14 @@ grid-template-columns: 1fr 1fr;
     
 }
 .img-girl {
+
+    background-image: url(./images/illustration-woman-online-desktop.svg);
     position: absolute;
     left: -60px;
     top: 80px;
 
 }
+
 
  /* faq styling */
  .heading {
@@ -206,3 +207,24 @@ color: hsl(238, 29%, 16%);
   .arr-key {
       margin-left: 20px;
   }
+
+/* for desktop */
+
+@media screen and (min-width:1440) {
+        .girl-img-mob {
+            display: none;
+        }
+        .girl-img-desk {
+            display: block;
+        }
+    }
+    
+@media all and (max-width:400) {
+        .girl-img-desk {
+            display: none;
+        }
+        .girl-img-mob {
+            display: block;
+        }
+    }
+  
